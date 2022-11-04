@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.awesomeproject64"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/matt/Documents/AwesomeProject64/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/matt/Documents/AwesomeProject64/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/matt/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/matt/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+14
+15    <queries>
+15-->[:toruslabs_react-native-web-browser] /Users/matt/Documents/AwesomeProject64/node_modules/@toruslabs/react-native-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:15
+16        <intent>
+16-->[:toruslabs_react-native-web-browser] /Users/matt/Documents/AwesomeProject64/node_modules/@toruslabs/react-native-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:18
+17
+18            <!-- Required for opening tabs if targeting API 30 -->
+19            <action android:name="android.support.customtabs.action.CustomTabsService" />
+19-->[:toruslabs_react-native-web-browser] /Users/matt/Documents/AwesomeProject64/node_modules/@toruslabs/react-native-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-90
+19-->[:toruslabs_react-native-web-browser] /Users/matt/Documents/AwesomeProject64/node_modules/@toruslabs/react-native-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:21-87
+20        </intent>
+21    </queries>
+22
+23    <application
+23-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:6:5-37:19
+24        android:name="com.awesomeproject64.MainApplication"
+24-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:7:7-38
+25        android:allowBackup="false"
+25-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:11:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] /Users/matt/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:9:7-41
+29        android:label="@string/app_name"
+29-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:8:7-39
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:10:7-52
+31        android:theme="@style/AppTheme"
+31-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:12:7-38
+32        android:usesCleartextTraffic="true" >
+32-->/Users/matt/Documents/AwesomeProject64/android/app/src/debug/AndroidManifest.xml:8:9-44
+33        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+33-->/Users/matt/Documents/AwesomeProject64/android/app/src/debug/AndroidManifest.xml:11:9-86
+33-->/Users/matt/Documents/AwesomeProject64/android/app/src/debug/AndroidManifest.xml:11:19-83
+34        <activity
+34-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:13:7-36:18
+35            android:name="com.awesomeproject64.MainActivity"
+35-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:14:9-37
+36            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+36-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:16:9-86
+37            android:exported="true"
+37-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:19:9-32
+38            android:label="@string/app_name"
+38-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:15:9-41
+39            android:launchMode="singleTop"
+39-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:17:9-39
+40            android:windowSoftInputMode="adjustResize" >
+40-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:18:9-51
+41            <intent-filter>
+41-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:21:9-24:25
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:22:13-65
+42-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:22:21-62
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:23:13-73
+44-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:23:23-70
+45            </intent-filter>
+46            <intent-filter>
+46-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:27:9-34:25
+47                <action android:name="android.intent.action.VIEW" />
+47-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:28:11-63
+47-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:28:19-60
+48
+49                <category android:name="android.intent.category.DEFAULT" />
+49-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:30:11-70
+49-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:30:21-67
+50                <category android:name="android.intent.category.BROWSABLE" />
+50-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:31:11-72
+50-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:31:21-69
+51
+52                <data android:scheme="huytran" />
+52-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:33:11-44
+52-->/Users/matt/Documents/AwesomeProject64/android/app/src/main/AndroidManifest.xml:33:17-41
+53            </intent-filter>
+54        </activity>
+55    </application>
+56
+57</manifest>
